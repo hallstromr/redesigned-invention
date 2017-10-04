@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class HelloWorld
 {
 	public static void main(String[] args) {
-		System.out.println("Hello Earthling! \nWelcome to Reilly and Geoff's change calculator.");
+		System.out.println("Hello Earthling! \nWelcome to Reilly and Geoff's and Lason's change calculator.");
 
 		// Opens a scanner which will be used to get the value the user types into the command line
 		Scanner sc = new Scanner (System.in);
