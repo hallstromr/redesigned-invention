@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class HelloWorld
 {
 	public static void main(String[] args) {
+		/*
 		System.out.println("Hello Earthling! \nWelcome to Reilly and Geoff's change calculator.");
 
 		// Opens a scanner which will be used to get the value the user types into the command line
@@ -22,5 +23,16 @@ public class HelloWorld
 		System.out.println ("Your amount contain the following");
 		System.out.println ("Quarters:   " + quarters);
 		System.out.println ("Dimes:    " + dimes);
+		*/
+
+		System.out.println("Hello Earthling! \nWelcome to Reilly, Geoff, and Lason's temperature converter");
+		
+		// Opens a scanner which will be used to get the value the user types into the command line
+		Scanner sc = new Scanner (System.in);
+		System.out.print("Enter a temperature:\n");
+
+		// here is where we get the number that the user types in
+		int i = sc.nextInt();
+
 	}
 }
