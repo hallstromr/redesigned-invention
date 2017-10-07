@@ -17,10 +17,16 @@ public class HelloWorld
 		// here is where we figure out how many of each coin is included.		
 		int q = 25;
 		int d = 10;
+		int n = 5;
+		int p = 1;
 		int quarters = (i/q);
 		int dimes = (i - quarters*q)/d;
+		int nickels = (i - quarters*q - dimes*d)/n;
+		int pennies = (i - quarters*q - dimes*d - nickels*n)/p;
 		System.out.println ("Your amount contain the following");
-		System.out.println ("Quarters:   " + quarters);
-		System.out.println ("Dimes:    " + dimes);
+		System.out.println ("Quarters: " + quarters);
+		System.out.println ("Dimes: " + dimes);
+		System.out.println ("Nickels: " + nickels);
+		System.out.println ("Pennies: " + pennies);  
 	}
 }
